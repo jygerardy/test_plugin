@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "meta": {
         "label": "SQL Code extractor",
-        "description": "Generate a text report with the SQL from all visual and code recipes from a given project.",
+        "description": "Generate a text report",
         "author": "Dataiku (Jean-Yves Gerardy)",
         "icon": "icon-code",
         "licenseInfo": "Apache Software License",
