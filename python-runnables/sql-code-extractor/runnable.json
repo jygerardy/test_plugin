@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "label": "SQL code extractor",
+    "description": "Generate a text report with the SQL from all visual and code recipes from either the current project or all projects the user has access to.",
+    "icon": "icon-code"
+  },
+  "impersonate": true,
+  "resultType": "HTML",
+  "resultLabel": "SQL extract report",
+  "extension": "txt",
+  "mimeType": "text/plain",
+  "params": [
+    {
+      "name": "output_folder",
+      "type": "FOLDER",
+      "label": "Output folder",
+      "description": "",
+      "mandatory": true
+    },
+    {
+      "name": "all_projects",
+      "label": "All projects",
+      "type": "BOOLEAN",
+      "description": "check to extract SQL from all projects you have access to",
+      "mandatory": true,
+      "defaultValue": false
+    }
+  ]
+}

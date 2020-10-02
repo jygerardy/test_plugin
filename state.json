@@ -1,0 +1,15 @@
+{
+  "actions": [
+    {
+      "ts": 1601645084748,
+      "action": "INSTALL",
+      "user": "admin"
+    }
+  ],
+  "gitState": {
+    "enabled": true,
+    "repository": "git@github.com:dataiku/dss-plugin-sql-code-extractor.git",
+    "path": "",
+    "checkout": ""
+  }
+}
